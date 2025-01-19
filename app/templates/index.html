@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentiment Analysis App</title>
+    <!-- Include the updated CSS -->
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sentiment Analysis App</h1>
+      <form id="sentiment-form">
+        <label for="text-input">Enter your text:</label>
+        <textarea
+          id="text-input"
+          rows="4"
+          cols="50"
+          placeholder="Write something..."
+        ></textarea>
+        <button type="submit">Analyze Sentiment</button>
+      </form>
+      <h2>Result:</h2>
+      <div id="result"></div>
+    </div>
+    <!-- Include JavaScript -->
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>
