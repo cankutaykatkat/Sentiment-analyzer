@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore database file
+app/database/feedback.db
+
+# Ignore virtual environments
+venv/
+
+# Ignore environment files
+.env
+
+# Ignore VS Code settings
+.vscode/
